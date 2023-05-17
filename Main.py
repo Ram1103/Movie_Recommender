@@ -7,10 +7,18 @@ api_version = 3
 api_base_url = f"https://api.themoviedb.org/{api_version}"
 endpoint_path = f"/search/movie"
 
+st.sidebar.header('User Input Features')
+selected = st.sidebar.selectbox(
+     "What would you like to do",
+     ("Search", "Recommendation", "Chat","FAQ"))
+
+
+
 st.write('# Search your movie!')
 search_query = st.text_input(" Enter here! ")
 st.write('### The current movie title is', search_query)
 endpoint = f"{api_base_url}{endpoint_path}?api_key={api_key}&query={search_query}"
+
 
 #print(endpoint)
 r=requests.get(endpoint) 
