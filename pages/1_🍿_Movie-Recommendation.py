@@ -60,4 +60,4 @@ st.write('  '
 st.write(' ')
 
 st.write(
-        "Current Database taken from : \n [ Click here](https://www.kaggle.com/code/rushikeshdane20/in-depth-analysis-of-netflix-with-plotly)")
+        "Current Database taken from : \n [Click here](https://www.kaggle.com/code/rushikeshdane20/in-depth-analysis-of-netflix-with-plotly)")
