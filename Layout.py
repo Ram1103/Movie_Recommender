@@ -32,11 +32,14 @@ def intro():
     )
 
 
+def movrec():
+    
+
 
 page_names_to_funcs = {
     "—": intro,
-    "Plotting Demo": plotting_demo,
-    "Mapping Demo": mapping_demo,
+    "Movie Selection": Main(),
+    "Recommendation": movrec(),
     "DataFrame Demo": data_frame_demo
 }
 
