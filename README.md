@@ -55,3 +55,13 @@ The project uses the following Python libraries:
 - Movie data for the "Movie Selection" feature is obtained through API calls (ThemovieDB).
 - Movie recommendation data is sourced from Kaggle (Netflix Movies 2019).
 
+## Screenshots 
+
+### 1.Homepage
+![Alt text](image.png)
+
+### 2.Movie Recommendation
+![Alt text](image-1.png)
+
+### 3.Movie Selection
+![Alt text](image-2.png)
